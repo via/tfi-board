@@ -66,6 +66,7 @@ F 0 "C7" H 4375 1050 50  0000 L CNN
 F 1 "0.1 uF" H 4375 850 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4388 800 50  0001 C CNN
 F 3 "" H 4350 950 50  0000 C CNN
+F 4 "X7R" H 4350 950 60  0001 C CNN "Rating"
 	1    4350 950 
 	1    0    0    -1  
 $EndComp
@@ -77,6 +78,7 @@ F 0 "C6" H 4125 1050 50  0000 L CNN
 F 1 "10 uF" H 3850 850 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4138 800 50  0001 C CNN
 F 3 "" H 4100 950 50  0000 C CNN
+F 4 "Tantalum 35V" H 4100 950 60  0001 C CNN "Rating"
 	1    4100 950 
 	1    0    0    -1  
 $EndComp
@@ -88,6 +90,7 @@ F 0 "C8" H 5425 1050 50  0000 L CNN
 F 1 "0.1 uF" H 5150 800 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 5438 800 50  0001 C CNN
 F 3 "" H 5400 950 50  0000 C CNN
+F 4 "X7R" H 5400 950 60  0001 C CNN "Rating"
 	1    5400 950 
 	1    0    0    -1  
 $EndComp
@@ -99,6 +102,7 @@ F 0 "C9" H 5725 1050 50  0000 L CNN
 F 1 "47 uF" H 5725 850 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 5738 800 50  0001 C CNN
 F 3 "" H 5700 950 50  0000 C CNN
+F 4 "Tantalum 10V" H 5700 950 60  0001 C CNN "Rating"
 	1    5700 950 
 	1    0    0    -1  
 $EndComp
@@ -1398,7 +1402,7 @@ L TC4427 U1
 U 1 1 5A269CAF
 P 2250 6800
 F 0 "U1" H 2250 7050 60  0000 C CNN
-F 1 "TC4427" H 2400 6550 50  0000 C CNN
+F 1 "TC4424" H 2400 6550 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 2250 6800 60  0001 C CNN
 F 3 "" H 2250 6800 60  0000 C CNN
 	1    2250 6800
@@ -1631,6 +1635,7 @@ F 0 "D2" H 2350 10150 50  0000 C CNN
 F 1 "D" H 2350 9950 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Vertical_KathodeUp" H 2350 10050 50  0001 C CNN
 F 3 "" H 2350 10050 50  0000 C CNN
+F 4 "Schottky" H 2350 10050 60  0001 C CNN "Notes"
 	1    2350 10050
 	0    1    1    0   
 $EndComp
@@ -1642,6 +1647,7 @@ F 0 "D3" H 2350 10450 50  0000 C CNN
 F 1 "D" H 2350 10250 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Vertical_KathodeUp" H 2350 10350 50  0001 C CNN
 F 3 "" H 2350 10350 50  0000 C CNN
+F 4 "Schottky" H 2350 10350 60  0001 C CNN "Notes"
 	1    2350 10350
 	0    1    1    0   
 $EndComp
@@ -1718,6 +1724,7 @@ F 0 "D11" H 5150 10150 50  0000 C CNN
 F 1 "D" H 5150 9950 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Vertical_KathodeUp" H 5150 10050 50  0001 C CNN
 F 3 "" H 5150 10050 50  0000 C CNN
+F 4 "Schottky" H 5150 10050 60  0001 C CNN "Notes"
 	1    5150 10050
 	0    1    1    0   
 $EndComp
@@ -1729,6 +1736,7 @@ F 0 "D12" H 5150 10450 50  0000 C CNN
 F 1 "D" H 5150 10250 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Vertical_KathodeUp" H 5150 10350 50  0001 C CNN
 F 3 "" H 5150 10350 50  0000 C CNN
+F 4 "Schottky" H 5150 10350 60  0001 C CNN "Notes"
 	1    5150 10350
 	0    1    1    0   
 $EndComp
