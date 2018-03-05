@@ -1,0 +1,55 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Rating,Notes,Part,Link
+1,Unpolarized capacitor,C,C1 C2 C7 C8,0.1 uF,C_Disc_D3_P2.5,4,X7R,,399-4264-ND,https://www.digikey.com/product-detail/en/kemet/C320C104K5R5TA/399-4264-ND/818040
+2,Unpolarized capacitor,C,C3 C4 C5,1 uF,C_Disc_D3_P2.5,3,,,"399-9934-1-ND
+",https://www.digikey.com/product-detail/en/kemet/T350A105M035AT7301/399-9934-1-ND/3726250
+3,Unpolarized capacitor,C,C6,10 uF,C_Disc_D3_P2.5,1,Tantalum 35V,,399-11366-1-ND,https://www.digikey.com/product-detail/en/kemet/T350G106K035AT7301/399-11366-1-ND/4552877
+4,Unpolarized capacitor,C,C9,47 uF,C_Disc_D3_P2.5,1,Tantalum 10V,,399-11361-1-ND,https://www.digikey.com/product-detail/en/kemet/T350E106M025AT7301/399-11361-1-ND/4552872
+5,Zener Diode,D_Zener,D1,3.3 V Zener,Diode_DO-41_SOD81_Vertical_KathodeUp,1,,,"1N5226BFSCT-ND
+",https://www.digikey.com/product-detail/en/on-semiconductor/1N5226BTR/1N5226BFSCT-ND/1992218
+6,Diode,D,D2 D3 D11 D12 D20 D21 D22 D23 D24 D25 D26 D27,D,Diode_DO-41_SOD81_Vertical_KathodeUp,12,,Schottky,1N5818-TPCT-ND,https://www.digikey.com/product-detail/en/micro-commercial-co/1N5818-TP/1N5818-TPCT-ND/950587
+7,Zener Diode,D_Zener,D4 D19,D_Zener,Diode_DO-41_SOD81_Vertical_KathodeUp,2,,,"1N5230BFSCT-ND
+",https://www.digikey.com/product-detail/en/on-semiconductor/1N5230BTR/1N5230BFSCT-ND/1532764
+8,LED generic,LED,D5 D6 D7 D8 D9 D10 D13 D14 D15 D16 D17 D18,LED,LED-3MM,12,,,"516-1792-1-ND or 516-1791-1-ND
+
+",https://www.digikey.com/product-detail/en/broadcom-limited/HLMP-1790-A0002/516-1792-1-ND/1966498 or https://www.digikey.com/product-detail/en/broadcom-limited/HLMP-1700-B0002/516-1791-1-ND/1966497
+9,"Connector, single row, 01x04",CONN_01X04,P1 P2 P3,CONN_01X04,Pin_Header_Straight_1x04,3,,,"609-3305-ND
+",https://www.digikey.com/product-detail/en/amphenol-fci/68002-404HLF/609-3305-ND/1878460
+10,"Connector, double row, 02x06",CONN_02X06,P4,CONN_02X06,Pin_Header_Straight_2x06,1,,,"609-3237-ND
+
+",https://www.digikey.com/product-detail/en/amphenol-fci/67997-212HLF/609-3237-ND/1878564
+11,"Connector, double row, 02x09",CONN_02X09,P5,CONN_02X09,Pin_Header_Straight_2x09,1,,,"732-5300-ND
+",https://www.digikey.com/product-detail/en/wurth-electronics-inc/61301821121/732-5300-ND/4846859
+12,,VND14NV04,Q1 Q2 Q3 Q4 Q5 Q6,VND7NV04,TO-252-2Lead,6,,,497-11707-1-ND,https://www.digikey.com/product-detail/en/stmicroelectronics/VND7NV04TR-E/497-11707-1-ND/2746936
+13,Resistor,R,R8 R9 R10 R11 R12 R13 R34 R35 R36 R37 R40 R41,100k,Resistor_Horizontal_RM7mm,12,,,"CF14JT100KCT-ND
+",https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT100K/CF14JT100KCT-ND/1830399
+14,Resistor,R,R24,120,Resistor_Horizontal_RM7mm,1,,,"CF14JT120RCT-ND
+",https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT120R/CF14JT120RCT-ND/1830329
+15,Resistor,R,R17 R18 R19 R20,150,Resistor_Horizontal_RM7mm,4,,,"CF14JT150RCT-ND
+",https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT150R/CF14JT150RCT-ND/1830603
+16,Resistor,R,R1 R2 R3 R4 R5 R6 R7 R14 R21 R29 R48,1k,Resistor_Horizontal_RM7mm,11,,,1KADCT-ND,https://www.digikey.com/product-detail/en/yageo/MFP-25BRD52-1K/1KADCT-ND/2059121
+17,Resistor,R,R22 R23 R25 R26 R27 R28 R30 R31 R32 R33 R38 R39,2.43k,Resistor_Horizontal_RM7mm,12,,,"2.43KXBK-ND
+",https://www.digikey.com/product-detail/en/yageo/MFR-25FBF52-2K43/2.43KXBK-ND/13086
+18,Resistor,R,R42 R43 R44 R45 R46 R47,330,Resistor_Horizontal_RM7mm,6,,,"CF14JT330RCT-ND
+",https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT330R/CF14JT330RCT-ND/1830338
+19,,LM2940,U5,LM2940,TO-220_Neutral123_Horizontal_LargePads,1,,,LM2940T-5.0/NOPB-ND,https://www.digikey.com/product-detail/en/texas-instruments/LM2940T-5.0-NOPB/LM2940T-5.0-NOPB-ND/148142
+20,"High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DIP8 package",MCP2562-H/P,U4,MCP2562-H/P,DIP-8_W7.62mm,1,,,"MCP2562-E/P-ND
+",https://www.digikey.com/product-detail/en/microchip-technology/MCP2562-E-P/MCP2562-E-P-ND/4079966
+21,,TC4424,U1,TC4424,DIP-8_W7.62mm,1,,,"TC4424AVPA-ND
+",https://www.digikey.com/product-detail/en/microchip-technology/TC4424AVPA/TC4424AVPA-ND/1098910
+22,,TC4427,U2 U3,TC4427,DIP-8_W7.62mm,2,,,"TC4427EPA-ND
+",https://www.digikey.com/product-detail/en/microchip-technology/TC4427EPA/TC4427EPA-ND/267352
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Component Groups:,22,,,,,,,,,
+Component Count:,98,,,,,,,,,
+Fitted Components:,98,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,
+Total components:,98,,,,,,,,,
+Schematic Version:,,,,,,,,,,
+Schematic Date:,,,,,,,,,,
+BoM Date:,Sat 03 Mar 2018 08:52:40 PM EST,,,,,,,,,
+Schematic Source:,/home/via/dev/tfi-board/io.sch,,,,,,,,,
+KiCad Version:,Eeschema 4.0.5+dfsg1-4,,,,,,,,,

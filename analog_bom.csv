@@ -1,0 +1,47 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Notes,Rating,Part,Link
+1,Unpolarized capacitor,C,C2 C3 C4 C7 C9 C10 C13 C14 C15 C19,0.1 uF,C_Disc_D3_P2.5,10,,X7R,,399-4264-ND,https://www.digikey.com/product-detail/en/kemet/C320C104K5R5TA/399-4264-ND/818040
+2,Unpolarized capacitor,C,C5 C6 C11 C12 C16 C17 C21 C22 C23 C24 C25,0.47 uF,C_Disc_D3_P2.5,11,,,,"399-9741-ND
+",https://www.digikey.com/product-detail/en/kemet/C315C474K5R5TA/399-9741-ND/3726125
+3,Unpolarized capacitor,C,C1 C18 C20,10 uF,C_Disc_D3_P2.5,3,,,35V Tantalum,"399-11366-1-ND
+",https://www.digikey.com/product-detail/en/kemet/T350G106K035AT7301/399-11366-1-ND/4552877
+4,Unpolarized capacitor,C,C8,47 uF,C_Disc_D3_P2.5,1,,,10 V Tantalum,"399-11361-1-ND
+",https://www.digikey.com/product-detail/en/kemet/T350E106M025AT7301/399-11361-1-ND/4552872
+5,Schottky diode,D_Schottky,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12,1N5818,Diode_DO-41_SOD81_Vertical_KathodeUp,12,,,,"1N5818-TPCT-ND
+",https://www.digikey.com/product-detail/en/micro-commercial-co/1N5818-TP/1N5818-TPCT-ND/950587
+6,"Connector, single row, 01x05",CONN_01X05,P4,CONN_01X05,Pin_Header_Straight_1x05,1,,,"
+","732-5318-ND
+",https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300511121/732-5318-ND/4846831
+7,"Connector, single row, 01x06",CONN_01X06,P2 P3,CONN_01X06,Pin_Header_Straight_1x06,2,,,,732-5319-ND,https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300611121/732-5319-ND/4846833
+8,"Connector, single row, 01x09",CONN_01X09,P1,CONN_01X09,Pin_Header_Straight_1x09,1,,,,"A31119-ND
+",https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/3-644456-9/A31119-ND/698351
+9,Resistor,R,R12 R13 R14 R15 R16,100,Resistor_Horizontal_RM7mm,5,,,,"CMF100HBCT-ND
+",https://www.digikey.com/product-detail/en/vishay-dale/CMF55100R00BEEB/CMF100HBCT-ND/2197148
+10,Resistor,R,R17 R18 R19 R20,10k,Resistor_Horizontal_RM7mm,4,,,,"CF14JT10K0CT-ND
+",https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374
+11,Resistor,R,R8,1k,Resistor_Horizontal_RM7mm,1,,,0.1%,"1KADCT-ND
+",https://www.digikey.com/product-detail/en/yageo/MFP-25BRD52-1K/1KADCT-ND/2059121
+12,Resistor,R,R1 R4 R9,2.49k,Resistor_Horizontal_RM7mm,3,,,0.1%,"71-PTF562K4900BZEK
+",https://www.mouser.com/ProductDetail/Vishay-Dale/PTF562K4900BZEK?qs=sGAEpiMZZMsPqMdJzcrNwq6irEuVjABlvvhPWLZDsQw%3D
+13,Resistor,R,R7,3.9k,Resistor_Horizontal_RM7mm,1,,,0.1%,"3.9KADCT-ND
+",https://www.digikey.com/product-detail/en/yageo/MFP-25BRD52-3K9/3.9KADCT-ND/2059137
+14,Resistor,R,R2 R3 R5 R6 R10 R11,470,Resistor_Horizontal_RM7mm,6,,,,"CF14JT470RCT-ND
+",https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT470R/CF14JT470RCT-ND/1830342
+15,,LM2940,U1,LM2940,TO-220_Neutral123_Horizontal,1,,,,"LM2940T-5.0/NOPB-ND
+",https://www.digikey.com/product-detail/en/texas-instruments/LM2940T-5.0-NOPB/LM2940T-5.0-NOPB-ND/148142
+16,,TLC2543,U2,TLC2543,DIP-20_W7.62mm,1,,,,"296-1817-5-ND
+",https://www.digikey.com/product-detail/en/texas-instruments/TLC2543IN/296-1817-5-ND/277462
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Component Groups:,16,,,,,,,,,,
+Component Count:,63,,,,,,,,,,
+Fitted Components:,63,,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,,
+Total components:,63,,,,,,,,,,
+Schematic Version:,,,,,,,,,,,
+Schematic Date:,,,,,,,,,,,
+BoM Date:,Sat 03 Mar 2018 08:43:40 PM EST,,,,,,,,,,
+Schematic Source:,/home/via/dev/tfi-board/analog.sch,,,,,,,,,,
+KiCad Version:,Eeschema 4.0.5+dfsg1-4,,,,,,,,,,
