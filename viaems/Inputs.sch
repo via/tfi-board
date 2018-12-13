@@ -804,8 +804,6 @@ Connection ~ 4000 4900
 Wire Wire Line
 	3700 4900 3450 4900
 Connection ~ 3700 4900
-Text Label 2000 6150 0    50   ~ 0
-5v_analog
 $Comp
 L power:GND #PWR065
 U 1 1 5C0509CA
@@ -883,8 +881,6 @@ Wire Wire Line
 	1700 6350 1800 6350
 Wire Wire Line
 	2100 6350 2250 6350
-Text Label 3800 6150 0    50   ~ 0
-5v_analog
 $Comp
 L power:GND #PWR076
 U 1 1 5C054478
@@ -1409,8 +1405,6 @@ Wire Wire Line
 	8450 4550 8550 4550
 Wire Wire Line
 	8450 4650 8550 4650
-Wire Wire Line
-	7600 4350 7700 4350
 $Comp
 L Connector_Generic:Conn_01x06 J20
 U 1 1 5C086C0F
@@ -1433,36 +1427,8 @@ F 3 "" H 7600 4050 50  0001 C CNN
 	1    7600 4050
 	1    0    0    -1  
 $EndComp
-Text Label 8100 4150 0    50   ~ 0
-5v_analog
 Wire Wire Line
 	8100 4150 8100 4050
-Wire Wire Line
-	7700 4050 7700 4350
-Connection ~ 7700 4350
-Wire Wire Line
-	7800 4050 7800 4450
-Connection ~ 7800 4450
-Wire Wire Line
-	7800 4450 7600 4450
-Wire Wire Line
-	7700 4350 8150 4350
-Wire Wire Line
-	7800 4450 8150 4450
-Wire Wire Line
-	7600 4550 7900 4550
-Wire Wire Line
-	7600 4650 8000 4650
-Wire Wire Line
-	7900 4050 7900 4550
-Connection ~ 7900 4550
-Wire Wire Line
-	7900 4550 8150 4550
-Wire Wire Line
-	8000 4050 8000 4650
-Connection ~ 8000 4650
-Wire Wire Line
-	8000 4650 8150 4650
 Text HLabel 4050 6350 2    50   Input ~ 0
 DIG2-cpu
 Text HLabel 2250 6350 2    50   Input ~ 0
@@ -1637,8 +1603,6 @@ Wire Wire Line
 Connection ~ 5400 5650
 Wire Wire Line
 	5400 5650 5350 5650
-Text Label 5200 5200 2    50   ~ 0
-5v_analog
 Wire Wire Line
 	5200 5200 5400 5200
 Wire Wire Line
@@ -1874,4 +1838,42 @@ Text HLabel 8150 5350 2    50   Input ~ 0
 IN1-
 Text HLabel 8150 5050 2    50   Input ~ 0
 IN1+
+Text HLabel 5200 5200 0    50   Input ~ 0
+5v_cpu
+Text HLabel 3800 6150 2    50   Input ~ 0
+5v_cpu
+Text HLabel 2000 6150 2    50   Input ~ 0
+5v_cpu
+Text HLabel 8700 5450 2    50   Input ~ 0
+5v_cpu
+Text HLabel 8100 4150 2    50   Input ~ 0
+5v_cpu
+Wire Wire Line
+	7600 4350 7800 4350
+Wire Wire Line
+	7600 4450 8000 4450
+Wire Wire Line
+	7600 4550 7700 4550
+Wire Wire Line
+	7600 4650 7900 4650
+Wire Wire Line
+	7700 4050 7700 4550
+Connection ~ 7700 4550
+Wire Wire Line
+	7700 4550 8150 4550
+Connection ~ 7800 4350
+Wire Wire Line
+	7800 4050 7800 4350
+Wire Wire Line
+	7900 4050 7900 4650
+Connection ~ 7900 4650
+Wire Wire Line
+	7900 4650 8150 4650
+Wire Wire Line
+	7800 4350 8150 4350
+Wire Wire Line
+	8000 4050 8000 4450
+Connection ~ 8000 4450
+Wire Wire Line
+	8000 4450 8150 4450
 $EndSCHEMATC
