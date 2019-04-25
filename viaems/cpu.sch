@@ -539,8 +539,6 @@ Wire Wire Line
 	2750 1600 2600 1600
 Wire Wire Line
 	2600 1600 2600 1650
-Text HLabel 2450 1950 0    50   Input ~ 0
-BOOT
 Text HLabel 2900 5150 0    50   Input ~ 0
 IG1-cpu
 Text HLabel 2900 5250 0    50   Input ~ 0
@@ -1317,4 +1315,19 @@ $EndComp
 Connection ~ 3550 1450
 Wire Wire Line
 	3100 1450 3250 1450
+$Comp
+L Device:Jumper JP1
+U 1 1 5C1828E1
+P 2150 1950
+F 0 "JP1" H 2150 2214 50  0000 C CNN
+F 1 "Jumper" H 2150 2123 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2150 1950 50  0001 C CNN
+F 3 "~" H 2150 1950 50  0001 C CNN
+	1    2150 1950
+	1    0    0    -1  
+$EndComp
+Text Label 1850 1950 2    50   ~ 0
+3v_cpu
+Entry Bus Bus
+	1950 1400 2050 1500
 $EndSCHEMATC
