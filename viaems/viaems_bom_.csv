@@ -1,0 +1,71 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digikey-Part,Notes
+1,Unpolarized capacitor,C,C38 C46 C54,0.01 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,~,1276-1015-1-ND,
+2,Unpolarized capacitor,C,C2 C3 C15 C18 C19 C20 C21 C22 C23 C24 C27 C28 C31 C32 C33 C37 C40 C45 C49 C55 C56 C58 C61,0.1 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,23,~,478-10836-1-ND,35V
+3,Unpolarized capacitor,C,C43,0.1 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,1276-1015-1-ND,
+4,Unpolarized capacitor,C,C44 C50,0.22 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,1276-1093-1-ND,
+5,Unpolarized capacitor,C,C39 C48,0.33 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,1276-1123-1-ND,
+6,Unpolarized capacitor,C,C34 C35 C36 C41 C42 C47,0.47 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,6,~,1276-6851-1-ND,
+7,Unpolarized capacitor,C,C51 C52,1 nF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,399-1147-1-ND,
+8,Unpolarized capacitor,C,C16 C26 C57,1 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,~,1276-1066-1-ND,
+9,Unpolarized capacitor,C,C1 C53,10 uF,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,2,~,445-8034-1-ND,35V
+10,Unpolarized capacitor,C,C29 C60,10 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,587-3417-1-ND,
+11,Unpolarized capacitor,C,C11 C13,16 pF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,311-4228-1-ND,
+12,Unpolarized capacitor,C,C5 C6 C7 C8 C9 C10 C62,1uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,7,~,1276-1029-1-ND,35V
+13,Unpolarized capacitor,C,C12 C14,2.2 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,1276-1188-1-ND,ESR < 2.2 ohm ESR < 2.2 ohms
+14,Unpolarized capacitor,C,C17,4.7 uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,445-14527-1-ND,
+15,Unpolarized capacitor,C,C4 C30 C59,47 uF,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,3,~,478-9009-1-ND,Tantalum 33 mOhm < ESR < 2.2 ohm
+16,Zener diode,D_Zener,D4,4.7 V,D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,,
+17,Zener diode,D_Zener,D9,4.7 V,D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,
+18,schottky barrier diode,BAT54S,D3 D5 D6 D7 D8 D10 D11 D12,BAT54S,SOT-23_Handsoldering,8,https://www.diodes.com/assets/Datasheets/ds11005.pdf,BAT54SLT1GOSCT-ND,
+19,Diode,D,D1,D,D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,478-7802-1-ND,
+20,"Polymer Protected Zener Diode, 5.6V, 1.15A, 24V, LS",ZEN056V115A24LS,D2,ZEN056V115A24LS,Littelfuse_PolyZen-LS,1,http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf,ZEN056V115A24LSCT-ND,
+21,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J2 J5 J6 J12 J16 J21,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,6,~,952-2262-ND,
+22,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J3,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,1,~,732-5316-ND,
+23,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J4 J7 J8 J10 J17,Conn_01x04,PinHeader_1x04_P2.54mm_Vertical,5,~,732-5317-ND,
+24,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06,J13 J14 J20,Conn_01x06,PinHeader_1x06_P2.54mm_Vertical,3,~,732-5319-ND,
+25,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08,J9 J11,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,2,~,732-5321-ND,
+26,"Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x06_Odd_Even,J15,Conn_02x06_Odd_Even,PinHeader_2x06_P2.54mm_Vertical,1,~,732-5297-ND,
+27,"Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x08_Counter_Clockwise,J1,Conn_02x08_Counter_Clockwise,PinHeader_2x08_P2.54mm_Vertical,1,~,609-3220-ND,
+28,"Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface",Conn_ARM_JTAG_SWD_10,J19,Conn_ARM_JTAG_SWD_10,PinHeader_2x05_P1.27mm_Vertical_SMD,1,http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf,SAM9438-ND,
+29,USB Micro Type B connector,USB_B_Micro,J18,USB_B_Micro,USB_Micro-B_Amphenol_10103594-0001LF_Horizontal,1,~,609-4050-1-ND,
+30,"Jumper, normally closed",Jumper,JP1 JP3,Jumper,PinHeader_1x02_P2.54mm_Vertical,2,~,952-2262-ND,
+31,"Dual jumper, normally closed",Jumper_NC_Dual,JP2,Jumper_NC_Dual,PinHeader_1x03_P2.54mm_Vertical,1,~,732-5316-ND,
+32,"N-MOSFET transistor, gate/drain/source",Q_NMOS_GDS,Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8,VND7NV04,TO-252-2,8,~,497-11707-1-ND,
+33,Resistor,R,R1 R2 R3 R4 R11 R12 R13 R14 R15 R16 R29 R30 R31 R32 R33 R34 R35 R36 R46 R49 R86,100k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,21,~,P100KDACT-ND,
+34,Resistor,R,R70 R71,10k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,RNCF0805DTE10K0CT-ND,
+35,Resistor,R,R50,120,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,P16874CT-ND,
+36,Resistor,R,R17 R18 R19 R20,150,R_2512_6332Metric_Pad1.52x3.35mm_HandSolder,4,~,541-150XCT-ND,1W
+37,Resistor,R,R37 R38 R39 R40 R41 R42 R43 R44,150,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,8,~,RNCP0805FTD150RCT-ND,
+38,Resistor,R,R5 R6 R7 R8 R9 R10 R21 R22 R23 R24 R25 R26 R27 R28 R45 R48 R53 R56 R60 R62 R64 R66 R67 R68 R73 R74 R75 R76 R77,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,29,~,RNCP0805FTD1K00CT-ND,
+39,Resistor,R,R55,1k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,P1.0KDACT-ND,0.1%
+40,Resistor,R,R78 R79,1k,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,2,~,PPC1.0KW-1CT-ND,1W
+41,Resistor,R,R61 R69,2.4k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,P2.4KDACT-ND,
+42,Resistor,R,R51 R52,22,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,A130124CT-ND,
+43,Resistor,R,R47 R80 R81 R82 R83 R84 R85,220,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,7,~,A129741CT-ND,
+44,Resistor,R,R54,3.9k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,P3.9KDACT-ND,0.1%
+45,Resistor,R,R57 R58 R59 R63 R65 R72,470,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,6,~,311-470CRCT-ND,
+46,,AD7888,U16,AD7888,SOIC-16_3.9x9.9mm_P1.27mm,1,,AD7888ARZ-REEL7CT-ND,
+47,,LM2940,U1 U15,LM2940,TO-220-3_Horizontal_TabDown,2,,LM2940T-5.0/NOPB-ND,
+48,,MAX9926UAEE+,U14,MAX9926UAEE+,QSOP-16_3.9x4.9mm_P0.635mm,1,,MAX9926UAEE+TCT-ND,
+49,"High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +150C, SOIC8 package",MCP2562-H-SN,U10,MCP2562-H-SN,SOIC-8_3.9x4.9mm_P1.27mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf,MCP2562-H/SN,
+50,"Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, SO package",MPXA6115A,U13,MPXH6115AC6U,Freescale_98ARH99089A,1,http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf,MPXH6115AC6U-ND,
+51,"Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, SO package",MPXA6115A,U12,MPXH6400A,Freescale_98ARH99089A,1,http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf,MPXH6400AC6T1CT-ND,
+52,"1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)",NCP1117-3.3_TO252,U11,NCP1117-3.3_TO252,TO-252-2,1,http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF,NCP1117DT33T5GOSCT-ND,
+53,"ARM Cortex-M4 MCU, 1024KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 82 GPIO, LQFP-100",STM32F407VGTx,U9,STM32F407VGTx,LQFP-100_14x14mm_P0.5mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf,497-17438-ND,
+54,,TC442xA,U2 U3 U4 U5 U6 U7 U8,TC442xA,SOIC-8_3.9x4.9mm_P1.27mm,7,,TC4427EOA713CT-ND,
+55,Two pin crystal,Crystal,Y1,8 Mhz,Crystal_HC49-U_Vertical,1,~,535-10212-1-ND,
+
+
+
+
+
+Component Groups:,55
+Component Count:,208
+Fitted Components:,208
+Number of PCBs:,1
+Total components:,208
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Sun 05 May 2019 05:27:50 PM EDT
+Schematic Source:,/home/via/dev/tfi-board/viaems/viaems.sch
+KiCad Version:,Eeschema 5.0.2+dfsg1-1
