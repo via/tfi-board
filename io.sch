@@ -2776,7 +2776,7 @@ F 3 "" H 6600 8700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 6450 8500 0    60   Input ~ 0
-LSD1-cpu
+LSD2-cpu
 $Comp
 L io-rescue:R-io-rescue R39
 U 1 1 6210BF74
